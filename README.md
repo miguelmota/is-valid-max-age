@@ -11,7 +11,7 @@ npm install is-valid-max-age
 ## Usage
 
 ```javascript
-var isValidSSN = require('is-valid-ssn');
+const isValidMaxAge = require('is-valid-max-age');
 
 console.log(isValidMaxAge(new Date(1999, 02, 21), 18)); // false
 console.log(isValidMaxAge(new Date(2006, 05, 14), 18)); // true

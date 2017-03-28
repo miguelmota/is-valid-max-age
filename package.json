@@ -1,0 +1,33 @@
+{
+  "name": "is-valid-max-age",
+  "version": "0.0.1",
+  "description": "Validate that age is below a maximum",
+  "main": "is-valid-max-age.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/is-valid-max-age"
+  },
+  "keywords": [
+    "validate",
+    "validator",
+    "age",
+    "birthday",
+    "dob",
+    "max"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (https://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/is-valid-max-age/issues"
+  },
+  "homepage": "https://github.com/miguelmota/is-valid-max-age",
+  "dependencies": {
+    "tape": "^3.0.3"
+  }
+}
